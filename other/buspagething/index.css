@@ -3,11 +3,21 @@ body {
     background-color: black;
     color: lightgrey;
 }
+
 table, th, td {
     border: 1px solid lightgrey;
     font-size: 5vmin;
     text-align: right;
 }
+
+table {
+  width: 100%;
+}
+
+td {
+  width: auto;
+}
+
 .late { background-color: darkblue; }
 .early { background-color: darkred; }
 .on-time { background-color: darkgreen; }
